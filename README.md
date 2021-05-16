@@ -4,7 +4,7 @@ When training deep neural networks, knowing how GPU utilization and memory usage
 
 Although GCP GPU compute engine instances come with the NVIDIA drivers installed, using `nvidia-smi` does not provide a reliable way of monitoring GPU metrics through a very long period of time.
 
-This script logs GPU utilization and memory to GCP Montoring metrics explorer.
+This script logs GPU utilization and memory to GCP Montoring metrics explorer. **Originally taken from https://github.com/GoogleCloudPlatform/tensorflow-inference-tensorrt5-t4-gpu** but modified under Apache 2.0 license to include newer versions of the GCP Monitoring Python client.
 
 ## Setup
 Copied from https://cloud.google.com/compute/docs/gpus/monitor-gpus
